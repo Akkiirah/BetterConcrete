@@ -1,8 +1,10 @@
-# Fabric Example Mod
+# Better Concrete
 
-## Setup
+## Information
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+This is my adaptation of RahalaBytes Mod  [SweetConcrete](https://github.com/RahalaBytes/SweetConcrete).
+I'm relativly new to coding, so this mod isn't by any means perfect.
+This is also my first time creating a Mod and coding in Java.
 
 ## License
 
