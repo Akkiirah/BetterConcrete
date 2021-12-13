@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "akibc",
+  "id": "akkiirah",
   "version": "${version}",
 
   "name": "Better Concrete",
@@ -14,12 +14,12 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/akibc/icon.png",
+  "icon": "assets/akkiirah/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.akibc.betterconcrete.BetterConcreteMod"
+      "net.akkiirah.betterconcrete.BetterConcreteMod"
     ]
   },
   "mixins": [
