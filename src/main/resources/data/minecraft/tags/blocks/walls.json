@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "akkiirah:white_concrete_wall"
+    "akkiirah:white_concrete_wall",
+    "akkiirah:black_concrete_wall"
   ]
 }

@@ -18,6 +18,28 @@ import net.minecraft.item.ItemGroup;
 public class ModBlocks {
 
         @Deprecated
+        public static final Block BLACK_CONCRETE_WALLS = registerBlock("black_concrete_wall",
+                        new WallBlock(FabricBlockSettings.of(Material.STONE).hardness(1.8f)
+                                        .breakByTool(FabricToolTags.PICKAXES, 0)
+                                        .requiresTool()),
+                        ItemGroup.DECORATIONS);
+
+        @Deprecated
+        public static final Block BLACK_CONCRETE_STAIRS = registerBlock("black_concrete_stairs",
+                        new ModStairsBlock(Blocks.WHITE_CONCRETE.getDefaultState(),
+                                        FabricBlockSettings.of(Material.STONE).hardness(1.8f)
+                                                        .breakByTool(FabricToolTags.PICKAXES, 0)
+                                                        .requiresTool()),
+                        ItemGroup.BUILDING_BLOCKS);
+
+        @Deprecated
+        public static final Block BLACK_CONCRETE_SLAB = registerBlock("black_concrete_slab",
+                        new SlabBlock(FabricBlockSettings.of(Material.STONE).hardness(1.8f)
+                                        .breakByTool(FabricToolTags.PICKAXES, 0)
+                                        .requiresTool()),
+                        ItemGroup.BUILDING_BLOCKS);
+
+        @Deprecated
         public static final Block WHITE_CONCRETE_WALLS = registerBlock("white_concrete_wall",
                         new WallBlock(FabricBlockSettings.of(Material.STONE).hardness(1.8f)
                                         .breakByTool(FabricToolTags.PICKAXES, 0)

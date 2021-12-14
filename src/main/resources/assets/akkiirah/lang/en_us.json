@@ -1,5 +1,8 @@
 {
     "block.akkiirah.white_concrete_stairs": "White Concrete Stairs",
     "block.akkiirah.white_concrete_slab": "White Concrete Slab",
-    "block.akkiirah.white_concrete_wall": "White Concrete Wall"
+    "block.akkiirah.white_concrete_wall": "White Concrete Wall",
+    "block.akkiirah.black_concrete_stairs": "Black Concrete Stairs",
+    "block.akkiirah.black_concrete_slab": "Black Concrete Slab",
+    "block.akkiirah.black_concrete_wall": "Black Concrete Wall"
 }
